@@ -1,0 +1,39 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- tiledb_super_SOURCE_DIR=/tmp/tiledb_fetch_content/build/_deps/tiledb_super-src
+-- tiledb_super_BINARY_DIR=/tmp/tiledb_fetch_content/build/_deps/tiledb_super-build
+-- Starting TileDB superbuild.
+-- Could NOT find Bzip2 (missing: BZIP2_LIBRARIES BZIP2_INCLUDE_DIR) 
+-- Adding Bzip2 as an external project
+-- Could NOT find LZ4 (missing: LZ4_LIBRARIES LZ4_INCLUDE_DIR) 
+-- Adding LZ4 as an external project
+-- Could NOT find Spdlog (missing: SPDLOG_INCLUDE_DIR) 
+-- Adding Spdlog as an external project
+-- Could NOT find ZLIB (missing: ZLIB_LIBRARY ZLIB_INCLUDE_DIR) 
+-- Could NOT find Zlib (missing: ZLIB_LIBRARIES ZLIB_INCLUDE_DIR) 
+-- Adding Zlib as an external project
+-- Could NOT find Zstd (missing: ZSTD_LIBRARIES ZSTD_INCLUDE_DIR) 
+-- Adding Zstd as an external project
+-- Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the system variable OPENSSL_ROOT_DIR (missing: OPENSSL_CRYPTO_LIBRARY OPENSSL_INCLUDE_DIR) 
+-- Adding OpenSSL as an external project
+-- searching for catch in /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src
+-- Could NOT find Catch2 (missing: CATCH_INCLUDE_DIR) 
+-- Adding Catch as an external project
+-- Not found clang-tidy
+-- Not found clang-format
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Install prefix is /usr/local
+-- TILEDB_LIBRARIES=/tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/tiledb/tiledb/libtiledb.so.2.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/tiledb_fetch_content/build

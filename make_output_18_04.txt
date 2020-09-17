@@ -1,0 +1,336 @@
+Scanning dependencies of target ep_catch
+Scanning dependencies of target ep_bzip2
+Scanning dependencies of target ep_spdlog
+Scanning dependencies of target ep_zstd
+Scanning dependencies of target ep_lz4
+Scanning dependencies of target ep_zlib
+Scanning dependencies of target ep_openssl
+[  1%] Creating directories for 'ep_catch'
+[  3%] Creating directories for 'ep_spdlog'
+[  6%] Creating directories for 'ep_bzip2'
+[  6%] Creating directories for 'ep_zstd'
+[  7%] Creating directories for 'ep_lz4'
+[  9%] Creating directories for 'ep_zlib'
+[ 10%] Creating directories for 'ep_openssl'
+[ 12%] Performing download step (download, verify and extract) for 'ep_lz4'
+[ 13%] Performing download step (download, verify and extract) for 'ep_catch'
+[ 15%] Performing download step (download, verify and extract) for 'ep_bzip2'
+[ 16%] Performing download step (download, verify and extract) for 'ep_spdlog'
+[ 18%] Performing download step (download, verify and extract) for 'ep_zstd'
+[ 19%] Performing download step (download, verify and extract) for 'ep_openssl'
+[ 21%] Performing download step (download, verify and extract) for 'ep_zlib'
+-- ep_spdlog download command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_spdlog-stamp/ep_spdlog-download-*.log
+[ 22%] No update step for 'ep_spdlog'
+[ 24%] No patch step for 'ep_spdlog'
+[ 25%] No configure step for 'ep_spdlog'
+[ 27%] No build step for 'ep_spdlog'
+[ 28%] No install step for 'ep_spdlog'
+[ 30%] Completed 'ep_spdlog'
+[ 30%] Built target ep_spdlog
+-- ep_lz4 download command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_lz4-stamp/ep_lz4-download-*.log
+[ 31%] No update step for 'ep_lz4'
+[ 33%] No patch step for 'ep_lz4'
+[ 34%] Performing configure step for 'ep_lz4'
+-- ep_lz4 configure command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_lz4-stamp/ep_lz4-configure-*.log
+[ 36%] Performing build step for 'ep_lz4'
+-- ep_catch download command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_catch-stamp/ep_catch-download-*.log
+[ 37%] No update step for 'ep_catch'
+[ 39%] No patch step for 'ep_catch'
+[ 40%] No configure step for 'ep_catch'
+[ 42%] No build step for 'ep_catch'
+[ 43%] No install step for 'ep_catch'
+[ 45%] Completed 'ep_catch'
+[ 45%] Built target ep_catch
+-- ep_zlib download command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_zlib-stamp/ep_zlib-download-*.log
+[ 46%] No update step for 'ep_zlib'
+[ 48%] No patch step for 'ep_zlib'
+[ 50%] Performing configure step for 'ep_zlib'
+-- ep_zlib configure command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_zlib-stamp/ep_zlib-configure-*.log
+[ 51%] Performing build step for 'ep_zlib'
+-- ep_zstd download command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_zstd-stamp/ep_zstd-download-*.log
+[ 53%] No update step for 'ep_zstd'
+[ 54%] No patch step for 'ep_zstd'
+[ 56%] Performing configure step for 'ep_zstd'
+-- ep_bzip2 download command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_bzip2-stamp/ep_bzip2-download-*.log
+[ 57%] No update step for 'ep_bzip2'
+[ 59%] No patch step for 'ep_bzip2'
+[ 60%] No configure step for 'ep_bzip2'
+[ 62%] No build step for 'ep_bzip2'
+[ 63%] Performing install step for 'ep_bzip2'
+-- ep_bzip2 install command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_bzip2-stamp/ep_bzip2-install-*.log
+[ 65%] Completed 'ep_bzip2'
+[ 65%] Built target ep_bzip2
+-- ep_zlib build command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_zlib-stamp/ep_zlib-build-*.log
+[ 66%] Performing install step for 'ep_zlib'
+-- ep_zlib install command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_zlib-stamp/ep_zlib-install-*.log
+[ 68%] Completed 'ep_zlib'
+[ 68%] Built target ep_zlib
+-- ep_zstd configure command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_zstd-stamp/ep_zstd-configure-*.log
+[ 69%] Performing build step for 'ep_zstd'
+-- ep_openssl download command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_openssl-stamp/ep_openssl-download-*.log
+[ 71%] No update step for 'ep_openssl'
+[ 72%] No patch step for 'ep_openssl'
+[ 74%] Performing configure step for 'ep_openssl'
+-- ep_lz4 build command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_lz4-stamp/ep_lz4-build-*.log
+[ 75%] Performing install step for 'ep_lz4'
+-- ep_lz4 install command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_lz4-stamp/ep_lz4-install-*.log
+[ 77%] Completed 'ep_lz4'
+[ 77%] Built target ep_lz4
+-- ep_openssl configure command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_openssl-stamp/ep_openssl-configure-*.log
+[ 78%] Performing build step for 'ep_openssl'
+-- ep_zstd build command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_zstd-stamp/ep_zstd-build-*.log
+[ 80%] Performing install step for 'ep_zstd'
+-- ep_zstd install command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_zstd-stamp/ep_zstd-install-*.log
+[ 81%] Completed 'ep_zstd'
+[ 81%] Built target ep_zstd
+-- ep_openssl build command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_openssl-stamp/ep_openssl-build-*.log
+[ 83%] Performing install step for 'ep_openssl'
+-- ep_openssl install command succeeded.  See also /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_openssl-stamp/ep_openssl-install-*.log
+[ 84%] Completed 'ep_openssl'
+[ 84%] Built target ep_openssl
+Scanning dependencies of target tiledb
+[ 86%] Creating directories for 'tiledb'
+[ 87%] No download step for 'tiledb'
+[ 89%] No update step for 'tiledb'
+[ 90%] No patch step for 'tiledb'
+[ 92%] Performing configure step for 'tiledb'
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Starting TileDB regular build.
+-- The TileDB library is compiled with verbosity.
+-- The TileDB library is compiled with stats enabled.
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found OpenSSL: /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/install/lib/libcrypto.a (found version "1.1.0h")  
+-- Found OpenSSL: /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/install/lib/libssl.a -- OpenSSL crypto: /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/install/lib/libcrypto.a -- root: /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/install;/usr/local/opt/openssl
+CMake Warning (dev) at /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):
+  The package name passed to `find_package_handle_standard_args` (Bzip2) does
+  not match the name of the calling package (Bzip2_EP).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/Modules/FindBzip2_EP.cmake:72 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  tiledb/CMakeLists.txt:388 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Bzip2: /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/install/lib/libbz2.a  
+CMake Warning (dev) at /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):
+  The package name passed to `find_package_handle_standard_args` (LZ4) does
+  not match the name of the calling package (LZ4_EP).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/Modules/FindLZ4_EP.cmake:73 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  tiledb/CMakeLists.txt:389 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found LZ4: /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/install/lib/liblz4.a  
+CMake Warning (dev) at /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):
+  The package name passed to `find_package_handle_standard_args` (Spdlog)
+  does not match the name of the calling package (Spdlog_EP).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/Modules/FindSpdlog_EP.cmake:45 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  tiledb/CMakeLists.txt:390 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Spdlog: /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_spdlog/include  
+CMake Warning at cmake/Modules/FindSpdlog_EP.cmake:70 (find_package):
+  By not providing "Findfmt.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "fmt", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "fmt" with any of
+  the following names:
+
+    fmtConfig.cmake
+    fmt-config.cmake
+
+  Add the installation prefix of "fmt" to CMAKE_PREFIX_PATH or set "fmt_DIR"
+  to a directory containing one of the above files.  If "fmt" provides a
+  separate development package or SDK, be sure it has been installed.
+Call Stack (most recent call first):
+  tiledb/CMakeLists.txt:390 (find_package)
+
+
+CMake Warning (dev) at /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):
+  The package name passed to `find_package_handle_standard_args` (Zlib) does
+  not match the name of the calling package (Zlib_EP).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/Modules/FindZlib_EP.cmake:68 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  tiledb/CMakeLists.txt:391 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Zlib: /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/install/lib/libz.a  
+-- Found Zlib: /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/install/lib/libz.a
+CMake Warning (dev) at /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):
+  The package name passed to `find_package_handle_standard_args` (Zstd) does
+  not match the name of the calling package (Zstd_EP).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/Modules/FindZstd_EP.cmake:73 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  tiledb/CMakeLists.txt:392 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Zstd: /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/install/lib/libzstd.a  
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- searching for catch in /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src
+CMake Warning (dev) at /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):
+  The package name passed to `find_package_handle_standard_args` (Catch2)
+  does not match the name of the calling package (Catch_EP).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/Modules/FindCatch_EP.cmake:47 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  test/CMakeLists.txt:29 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Catch2: /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/externals/src/ep_catch/single_include/catch2  
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TILEDB_BZIP2_EP_BUILT
+    TILEDB_LZ4_EP_BUILT
+
+
+-- Build files have been written to: /tmp/tiledb_fetch_content/build/_deps/tiledb_super-build/tiledb
+[ 93%] Performing build step for 'tiledb'
+Scanning dependencies of target TILEDB_CORE_OBJECTS
+[  0%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/array/array.cc.o
+[  3%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/array_schema/array_schema.cc.o
+[  3%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/array_schema/attribute.cc.o
+[  3%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/array_schema/dimension.cc.o
+[  3%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/array_schema/domain.cc.o
+[  6%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/buffer/buffer.cc.o
+[  6%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/buffer/buffer_list.cc.o
+[  6%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/buffer/const_buffer.cc.o
+[  9%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/buffer/preallocated_buffer.cc.o
+[  9%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/c_api/tiledb.cc.o
+[  9%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/cache/buffer_lru_cache.cc.o
+[ 12%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/compressors/bzip_compressor.cc.o
+[ 12%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/compressors/dd_compressor.cc.o
+[ 12%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/compressors/gzip_compressor.cc.o
+[ 15%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/compressors/lz4_compressor.cc.o
+[ 15%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/compressors/rle_compressor.cc.o
+[ 15%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/compressors/zstd_compressor.cc.o
+[ 18%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/config/config.cc.o
+[ 18%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/config/config_iter.cc.o
+[ 18%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/crypto/crypto.cc.o
+[ 21%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/crypto/encryption_key.cc.o
+[ 21%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/crypto/encryption_key_validation.cc.o
+[ 21%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/crypto/crypto_openssl.cc.o
+[ 25%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/crypto/crypto_win32.cc.o
+[ 25%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filesystem/azure.cc.o
+[ 28%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filesystem/gcs.cc.o
+[ 28%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filesystem/hdfs_filesystem.cc.o
+[ 28%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filesystem/posix.cc.o
+[ 31%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filesystem/s3.cc.o
+[ 31%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filesystem/s3_thread_pool_executor.cc.o
+[ 31%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filesystem/vfs.cc.o
+[ 34%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filesystem/vfs_file_handle.cc.o
+[ 34%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filesystem/win.cc.o
+[ 34%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filter/bit_width_reduction_filter.cc.o
+[ 37%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filter/bitshuffle_filter.cc.o
+[ 37%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filter/byteshuffle_filter.cc.o
+[ 37%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filter/checksum_md5_filter.cc.o
+[ 40%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filter/checksum_sha256_filter.cc.o
+[ 40%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filter/compression_filter.cc.o
+[ 40%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filter/encryption_aes256gcm_filter.cc.o
+[ 43%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filter/filter.cc.o
+[ 43%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filter/filter_buffer.cc.o
+[ 43%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filter/filter_pipeline.cc.o
+[ 46%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filter/filter_storage.cc.o
+[ 46%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filter/noop_filter.cc.o
+[ 46%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/filter/positive_delta_filter.cc.o
+[ 50%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/fragment/fragment_metadata.cc.o
+[ 50%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/global_state/global_state.cc.o
+[ 53%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/global_state/libcurl_state.cc.o
+[ 53%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/global_state/openssl_state.cc.o
+[ 53%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/global_state/signal_handlers.cc.o
+[ 56%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/global_state/tbb_state.cc.o
+[ 56%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/global_state/watchdog.cc.o
+[ 56%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/metadata/metadata.cc.o
+[ 59%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/misc/cancelable_tasks.cc.o
+[ 59%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/misc/constants.cc.o
+[ 59%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/misc/logger.cc.o
+[ 62%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/misc/status.cc.o
+[ 62%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/misc/thread_pool.cc.o
+[ 62%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/misc/uri.cc.o
+[ 65%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/misc/utils.cc.o
+[ 65%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/misc/uuid.cc.o
+[ 65%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/misc/win_constants.cc.o
+[ 68%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/misc/work_arounds.cc.o
+[ 68%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/query/query.cc.o
+[ 68%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/query/reader.cc.o
+[ 71%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/query/result_tile.cc.o
+[ 71%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/query/read_cell_slab_iter.cc.o
+[ 71%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/query/writer.cc.o
+[ 75%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/query/write_cell_slab_iter.cc.o
+[ 75%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/rest/rest_client.cc.o
+[ 78%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/rtree/rtree.cc.o
+[ 78%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/serialization/array_schema.cc.o
+[ 78%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/serialization/query.cc.o
+[ 81%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/stats/stats.cc.o
+[ 81%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/storage_manager/context.cc.o
+[ 81%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/storage_manager/consolidator.cc.o
+[ 84%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/storage_manager/open_array.cc.o
+[ 84%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/storage_manager/storage_manager.cc.o
+[ 84%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/subarray/cell_slab_iter.cc.o
+[ 87%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/subarray/subarray.cc.o
+[ 87%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/subarray/subarray_partitioner.cc.o
+[ 87%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/tile/chunked_buffer.cc.o
+[ 90%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/tile/tile.cc.o
+[ 90%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/sm/tile/generic_tile_io.cc.o
+[ 90%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/__/external/src/md5/md5.cc.o
+[ 93%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/__/external/src/bitshuffle/iochain.cc.o
+[ 93%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/__/external/src/bitshuffle/bitshuffle_core.cc.o
+[ 93%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/__/external/src/blosc/shuffle.cc.o
+[ 96%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/__/external/src/blosc/shuffle-avx2.cc.o
+[ 96%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/__/external/src/blosc/shuffle-generic.cc.o
+[ 96%] Building CXX object tiledb/CMakeFiles/TILEDB_CORE_OBJECTS.dir/__/external/src/blosc/shuffle-sse2.cc.o
+[ 96%] Built target TILEDB_CORE_OBJECTS
+Scanning dependencies of target tiledb_static
+Scanning dependencies of target tiledb_shared
+[100%] Linking CXX static library libtiledb.a
+[100%] Linking CXX shared library libtiledb.so
+[100%] Built target tiledb_static
+[100%] Built target tiledb_shared
+[ 95%] No install step for 'tiledb'
+[ 96%] Completed 'tiledb'
+[ 96%] Built target tiledb
+Scanning dependencies of target main_src
+make[2]: *** No rule to make target '_deps/tiledb_super-build/tiledb/tiledb/libtiledb.so.2.0', needed by 'main_src'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+[ 98%] Building CXX object CMakeFiles/main_src.dir/main.cpp.o
+CMakeFiles/Makefile2:132: recipe for target 'CMakeFiles/main_src.dir/all' failed
+make[1]: *** [CMakeFiles/main_src.dir/all] Error 2
+Makefile:148: recipe for target 'all' failed
+make: *** [all] Error 2
