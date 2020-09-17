@@ -8,7 +8,7 @@ include(FetchContent)
 
 FetchContent_Declare(
         tiledb_super
-        GIT_REPOSITORY https://github.com/aosterthun/TileDB.git
+        GIT_REPOSITORY https://github.com/TileDB-Inc/TileDB.git
         GIT_TAG "dev"
 )
 
@@ -16,7 +16,12 @@ FetchContent_GetProperties(tiledb_super)
 if(NOT tiledb_super_POPULATED)
     FetchContent_Populate(tiledb_super)
     # Set various TileDB settings for compilation as you want here.
-    set(TILEDB_FORCE_ALL_DEPS ON CACHE INTERNAL "Make shared library self contained")
+    set(TILEDB_VERBOSE ON CACHE INTERNAL "Enable verbose mode")
+    set(TILEDB_S3 OFF CACHE INTERNAL "Enable S3 support")
+    set(TILEDB_STATIC ON CACHE INTERNAL "Enable static library building")
+    set(TILEDB_SERIALIZATION OFF CACHE INTERNAL "Enable serialization support")
+    set(TILEDB_FORCE_ALL_DEPS OFF CACHE INTERNAL "Make shared library self contained")
+    set(TILEDB_TBB OFF CACHE INTERNAL "Disable TBB")
     message(STATUS "tiledb_super_SOURCE_DIR=${tiledb_super_SOURCE_DIR}")
     message(STATUS "tiledb_super_BINARY_DIR=${tiledb_super_BINARY_DIR}")
     add_subdirectory(${tiledb_super_SOURCE_DIR} ${tiledb_super_BINARY_DIR})
