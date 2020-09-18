@@ -28,7 +28,7 @@ if(NOT tiledb_super_POPULATED)
     include_directories("${tiledb_super_BINARY_DIR}/tiledb/examples")
 
     # Set tiledb library, use versions (.2.0 suffix) file instead of main symlink. This simplifies installation from cmake, as cmake install command doesn't handle symlinks.
-    SET(TILEDB_LIBRARIES "${tiledb_super_BINARY_DIR}/tiledb/tiledb/${CMAKE_SHARED_LIBRARY_PREFIX}tiledb${CMAKE_SHARED_LIBRARY_SUFFIX}.2.0")
+    SET(TILEDB_LIBRARIES "${tiledb_super_BINARY_DIR}/tiledb/tiledb/${CMAKE_SHARED_LIBRARY_PREFIX}tiledb${CMAKE_SHARED_LIBRARY_SUFFIX}.2.1")
     message(STATUS "TILEDB_LIBRARIES=${TILEDB_LIBRARIES}")
 endif()
 
